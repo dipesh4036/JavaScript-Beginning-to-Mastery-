@@ -17,6 +17,8 @@ console.log(a.trim());
 console.log(a.trim().toUpperCase());
 console.log(a.trim().slice(0,3));
 
+let name = "Dipesh"
+console.log(name.replace("D","d"));
 
 // what is NaN in JS:
 // NaN is also onw type of number
@@ -69,3 +71,7 @@ null === undefined // false
 
 // user input
 +prompt("enter number")  // promt is always take "string" that why we convert first string to number
+
+// for , while , Do while loops 
+
+// break and continue keywords
