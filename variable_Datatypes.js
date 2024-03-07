@@ -6,6 +6,20 @@
 // 1) primitive: Number , String , Boolean , null , undefined
 // 2) not primitive: Array [] , Function  () , Object  {}    ==> reference data  
 
+// primitive and refrence data type :
+let num1 = 34;   // primitive  values change use stack memory 
+let num2 = num1;
+num1=45
+console.log(num1);
+console.log(num2);
+
+let array1 = [1,2,3,4] // in refrence values can't change  use heap memory
+let array2 = array1
+array1[0]=2
+console.log(array1);
+console.log(array2);
+
+
 // String indexing:
 let name = "Dipesh"
 console.log(name[0]); // first char
