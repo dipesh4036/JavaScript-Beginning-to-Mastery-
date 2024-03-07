@@ -20,6 +20,10 @@ console.log(a.trim().slice(0,3));
 let name = "Dipesh"
 console.log(name.replace("D","d"));
 
+let a = "asd"
+a[0]="f"          // String can't chagne b
+console.log(a);  // this is don't work ,but if this is array then it's change
+
 // what is NaN in JS:
 // NaN is also onw type of number
 console.log(`NaN type is: ${typeof NaN}`);
